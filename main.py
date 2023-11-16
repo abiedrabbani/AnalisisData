@@ -12,7 +12,7 @@ df_day.drop(['dteday','instant','season','yr','mnth','weekday','workingday','wea
 df_hour.drop(['instant','dteday','season','yr','mnth','hr','holiday','weekday','workingday','temp','atemp','hum','windspeed','casual','registered'], axis=1, inplace=True)
 
 # Sidebar
-st.sidebar.title("Proyek Analisis Data - Hour.csv dan Day.csv")
+st.sidebar.title("Proyek Analisis Data")
 st.sidebar.write("Nama: Moh. Abied Rabbani")
 st.sidebar.write("Email: abiedrabbani90@gmail.com")
 st.sidebar.write("Id Dicoding: Moh. Abied Rabbani")
